@@ -3,8 +3,8 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className="bg-black text-white px-9 py-7 sm:px-4">
-      <div className="flex items-center justify-between sm:flex-col">
-        <div className="flex flex-col">
+      <div className="flex items-center justify-between sm:flex-col sm:items-start">
+        <div className="flex flex-col sm:pb-7">
           <h3 className="font-semibold text-xl pb-4">Founders</h3>
           <a
             className="text-lg hover:underline"
